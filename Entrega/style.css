@@ -1,0 +1,75 @@
+body{
+    font-family: 'Staatliches', cursive;
+    margin: 0;    
+}
+
+.color-text-header{
+    color:#1af672;
+}
+
+.bg-header,.bg-navbar{
+    background-color: #343333;
+}
+
+.btn-outline-success:hover{
+    color: #fff;
+    background-color: #39ff14;
+    border-color: #39ff14;
+}
+
+.btn-outline-success{
+    color: #39ff14;
+    border-color: #39ff14;
+}
+
+.img-placeholder::placeholder{
+    background-image: url(img/search.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.img-placeholder:focus,.img-footer-placeholder:focus{
+    outline: none;
+}
+
+.img-footer-placeholder::placeholder{
+    background-image: url(img/envelope.svg);
+    background-repeat: no-repeat;  
+    background-position: 13rem center;  
+}
+
+.sizing-img{
+    width: 50px;
+    height: 50px;
+}
+.width-logo{
+    width: 100px;
+}
+
+.box-shadow-card{
+    box-shadow: rgb(150,150,150) 5px 5px;  
+    box-shadow: 0 1px 1px 0 rgb(0 0 0 / 10%)
+}
+.top, footer>.container-fluid{
+    background-color: #39ff14;  
+    width: 100%;   
+}
+
+.top-line{    
+    font-family: 'Alfa Slab One', cursive;
+    background-color: #e7cdc0;    
+}
+
+.color-text-top{
+    color: rgba(255,255,255,.55);
+}
+
+
+.section-los-mas-buscados,.section-productos-para-papa{
+    margin-top:20rem;
+    padding-bottom: 3px;     
+}
+
+.color-text-footer{
+    color: #343333;
+}
